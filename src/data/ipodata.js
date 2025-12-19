@@ -6,7 +6,7 @@ const ipodata =
         companyType: "OYO Private Limited",
         logo:"https://images.seeklogo.com/logo-png/44/1/oyo-rooms-logo-png_seeklogo-443633.png",
         status: "listed",
-        issueSize: "₹3,600 – ₹3,700 Cr",
+        issueSize: "₹3,700 Cr",
         priceRange: "₹100 – ₹200",
         minimumAmount: "₹50,000",
         lotSize: "150 shares / lot",

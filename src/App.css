@@ -467,11 +467,11 @@
   }
 
   .timeline-item {
-    width: 100%;
+    width: fit-content;
     text-align: left;
     display: flex;
     gap: 12px;
-    align-items: flex-start;
+    align-items:center;
   }
 
   .timeline-icon {
@@ -481,7 +481,15 @@
     font-size: 14px;
     margin: 0;
   }
-
+  .tba-line::before {
+    display: none;
+  }
+  .tba-line{
+    flex-direction: column;
+    padding: 0;
+    gap: 12px;
+    align-items: flex-start;
+  }
   .timeline-title {
     font-size: 13px;
     margin: 0;
